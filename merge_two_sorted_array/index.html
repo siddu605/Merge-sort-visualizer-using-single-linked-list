@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Sort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Merge Sort</h1>
+
+        <div class="inputs-container">
+            <span class="input-text">Inputs</span>
+            <div class="input-group array-values">
+                <div class="input-label">Array1 Values:</div>
+                <input type="text" name="array_values1" id="array-values-input1" placeholder="Type multiple array values with comma seperated"/>
+            </div>
+            <div class="input-group array-values">
+                <div class="input-label">Array2 Values:</div>
+                <input type="text" name="array_values2" id="array-values-input2" placeholder="Type multiple array values with comma seperated"/>
+            </div>
+            <div class="input-group array-layout">
+                <div class="input-label">Array Layout:</div>
+                <select name="array_layout" id="array-layout-input">
+                    <option value="bar" selected>Bar</option>
+                    <option value="array">Array</option>
+                </select>
+            </div>
+            <div class="input-group sort-order">
+                <div class="input-label">Sort Order:</div>
+                <select name="sort_order" id="sort-order-input">
+                    <option value="ascending" selected>Ascending</option>
+                    <option value="descending">Descending</option>
+                </select>
+            </div>
+            <div class="button-container">
+                <div class="input-label"></div>
+                <button class="reset-btn" id="reset-button">Reset</button>
+            </div>
+            <div class="button-container">
+                <div class="input-label"></div>
+                <button class="run-btn" id="run-button">Run</button>
+            </div>
+        </div>
+
+        <div class="visualize-container">
+            <span class="output-text">Outputs</span>
+            <div id="visualize-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
